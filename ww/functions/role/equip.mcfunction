@@ -16,6 +16,8 @@ execute if entity @s[tag=detective] run function ww:role/detective/equip
 execute if entity @s[tag=hentai] run function ww:role/hentai/equip
 execute if entity @s[tag=thief] run function ww:role/thief/equip
 execute if entity @s[tag=villager] run function ww:role/villager/equip
+execute if entity @s[tag=spirit] run function ww:role/spirit/equip
+
 
 execute if entity @s[tag=wraith] run function ww:role/wraith/equip
 execute if entity @s[tag=voodoo] run function ww:role/voodoo/equip

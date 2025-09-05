@@ -29,6 +29,7 @@ execute if predicate ww:mainhand/setting/pool/goods/detective run function ww:se
 execute if predicate ww:mainhand/setting/pool/goods/hentai run function ww:setting/pool/goods/hentai
 execute if predicate ww:mainhand/setting/pool/goods/thief run function ww:setting/pool/goods/thief
 execute if predicate ww:mainhand/setting/pool/goods/villager run function ww:setting/pool/goods/villager
+execute if predicate ww:mainhand/setting/pool/goods/spirit run function ww:setting/pool/goods/spirit
 
 execute if predicate ww:mainhand/setting/pool/wraiths/wraith run function ww:setting/pool/wraiths/wraith
 execute if predicate ww:mainhand/setting/pool/wraiths/voodoo run function ww:setting/pool/wraiths/voodoo
