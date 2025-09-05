@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"植入炸彈","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"右鍵指向玩家以植入炸彈","color":"white","italic":false}','{"text":"炸彈在30秒後爆炸並炸死黏到的玩家","color":"white","italic":false}','{"text":"被炸彈黏到的玩家可以藉由票其他人來傳遞炸彈","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,implant_bomb:1b} 1

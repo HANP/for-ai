@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'[{"text":"色心","color":"light_purple","bold":true,"italic":false}]'},skill:1b,hentai_arousal:1b} 1

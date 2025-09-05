@@ -1,0 +1,2 @@
+execute as @a[scores={curse=1..}] run scoreboard players add @s curse 1
+execute as @a[scores={curse=1..}] run tellraw @s [{"storage":"ww:game","nbt":"DISPLAY.warn","interpret":true},{"text":"你的詛咒增加了一層, 目前總共有 ","bold":false},{"score":{"name":"@s","objective":"curse"},"color":"red","bold":true},{"text":" 層, 3層以上會死","color":"white","bold":false}]

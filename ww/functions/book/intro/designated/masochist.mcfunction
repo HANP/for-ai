@@ -1,0 +1,7 @@
+function ww:book/init
+data modify block 0 0 0 Items[0].tag.title set value '抖M教徒說明書'
+data modify block 0 0 0 Items[0].tag.display.Name set value '{"text":"抖M教徒說明書","color":"aqua","bold":true,"italic":false}'
+data modify block 0 0 0 Items[0].tag.designated set value 1b
+data modify block 0 0 0 Items[0].tag.pages append value '[{"text": "<好人陣營>", "color": "red", "bold": true}, {"text": "  [抖M教徒]", "color": "dark_blue", "bold": true}, {"text": "\\n"}, {"text": "[ 蠢 ]\\n", "color": "aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "點我", "color": "white", "italic": false}]}, "clickEvent": {"action": "change_page", "value": "35"}}, {"text": "註1", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "無特殊技能, 唯一目標為白天成為最高票的玩家", "color": "white", "italic": false}]}}, {"text": "\\n"}, {"text": "註2", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "抖M教徒可以票人, 但在結算時會被視為無效票, 存在無效票時遊戲也會公布其數量", "color": "white", "italic": false}]}}, {"text": "\\n"}]'
+data modify block 0 0 0 Items[0].tag.pages append value '[{"text": "<好人陣營>", "color": "red", "bold": true}, {"text": "  [蠢抖M教徒]", "color": "dark_blue", "bold": true}, {"text": "\\n\\n"}, {"text": "被動", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "白天會被票死且不會勝利, 同時會公布你就是蠢抖M", "color": "white", "italic": false}]}}, {"text": "\\n\\n"}]'
+loot replace entity @s hotbar.7 mine 0 0 0 air{drop_contents:true}

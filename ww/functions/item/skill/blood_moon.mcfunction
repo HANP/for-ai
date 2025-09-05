@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"血月","color":"red","bold":true,"italic":false}',Lore:['{"text":"以自身隔日死亡的條件強制進入夜晚, 白天票數皆不算","color":"white","italic":false}','{"text":"當晚所有著裝狼人獲得大幅度的速度與跳躍提升","color":"white","italic":false}','{"text":"其他非狼或為著裝的狼玩家將持續發光30秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,blood_moon:1b} 1

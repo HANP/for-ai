@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"標記","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"標記指定目標","color":"white","italic":false}','{"text":"並在隔日與其互換職業","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,steal:1b} 1

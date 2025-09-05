@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"紫外線手電筒","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"右鍵指向玩家, 若該玩家有沾到螢光粉, 則發光3秒","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,uv_light:1b} 1

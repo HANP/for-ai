@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:wooden_sword",
+          "minecraft:warped_fungus_on_a_stick"
+        ],
+        "nbt": "{vote:1b,morning:1b}"
+      }
+    }
+  }
+}

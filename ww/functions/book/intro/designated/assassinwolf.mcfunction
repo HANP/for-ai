@@ -1,0 +1,6 @@
+function ww:book/init
+data modify block 0 0 0 Items[0].tag.title set value '刺客狼說明書'
+data modify block 0 0 0 Items[0].tag.display.Name set value '{"text":"刺客狼說明書","color":"gold","bold":true,"italic":false}'
+data modify block 0 0 0 Items[0].tag.designated set value 1b
+data modify block 0 0 0 Items[0].tag.pages append value '[{"text":"<狼人陣營>","color":"red","bold":true},{"text":" [刺客狼]","color":"dark_red","bold":true},{"text":"\\n\\n"},{"text":"勝利條件: ","color":"yellow"},{"text":"同狼人陣營\\n\\n","color":"white"},{"text":"能力: \\n","color":"aqua","bold":true},{"text":"[洞察刺殺]","color":"light_purple","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"獲得技能書，可選擇一名玩家並猜測其職業。\\n猜對則目標死亡，猜錯則自身死亡。","color":"white"}]}},{"text":"\\n\\n你的任務是利用信息差，精準地剷除對狼隊威脅最大的神職角色。\\n\\n","color":"gray","italic":true},{"text":"--------------------\\n","color":"dark_gray"},{"text":"[蠢]","color":"dark_purple","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"技能: [弄巧成拙的刺殺]\\n效果: 技能結果完全相反。\\n猜對 -> 自身死亡\\n猜錯 -> 目標死亡","color":"white"}]}},{"text":"\\n"}]'
+loot replace entity @s hotbar.7 mine 0 0 0 air{drop_contents:true}

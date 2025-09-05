@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'[{"text":"騷擾名單","color":"light_purple","bold":true,"italic":false}]'},skill:1b,hentai_list:1b} 1

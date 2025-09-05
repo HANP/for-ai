@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"螢光粉","color":"light_purple","bold":true,"italic":false}',Lore:['{"text":"看向一名玩家並使用技能","color":"white","italic":false}','{"text":"使其被沾上螢光粉","color":"white","italic":false}','{"text":"晚上時能看到他的軌跡","color":"white","italic":false}']},HideFlags:62,Unbreakable:1b,skill:1b,powder:1b}

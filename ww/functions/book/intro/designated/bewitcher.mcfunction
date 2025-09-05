@@ -1,0 +1,7 @@
+function ww:book/init
+data modify block 0 0 0 Items[0].tag.title set value '蠱惑師說明書'
+data modify block 0 0 0 Items[0].tag.display.Name set value '{"text":"蠱惑師說明書","color":"aqua","bold":true,"italic":false}'
+data modify block 0 0 0 Items[0].tag.designated set value 1b
+data modify block 0 0 0 Items[0].tag.pages append value '[{"text": "<怨靈陣營>", "color": "red", "bold": true}, {"text": "  [蠱惑師]", "color": "dark_blue", "bold": true}, {"text": "\\n"}, {"text": "[ 蠢 ]\\n", "color": "aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "點我", "color": "white", "italic": false}]}, "clickEvent": {"action": "change_page", "value": "35"}}, {"text": "註1", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "擁有普通怨靈的所有主動與被動技能", "color": "white", "italic": false}]}}, {"text": "\\n"}, {"text": "註2", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "被預言家查到升天後\\n該預言家接下來的白天與夜晚皆無法獲得任何技能道具\\n(但仍可照常參與白天投票)\\n直到傳承給下一位見習生為止", "color": "white", "italic": false}]}}, {"text": "\\n"}]'
+data modify block 0 0 0 Items[0].tag.pages append value '[{"text": "<怨靈陣營>", "color": "red", "bold": true}, {"text": "  [蠢蠱惑師]", "color": "dark_blue", "bold": true}, {"text": "\\n\\n"}, {"text": "被動", "color": "dark_aqua", "bold": true, "hoverEvent": {"action": "show_text", "contents": [{"text": "無法使預言家失去技能", "color": "white", "italic": false}]}}, {"text": "\\n\\n"}]'
+loot replace entity @s hotbar.7 mine 0 0 0 air{drop_contents:true}
